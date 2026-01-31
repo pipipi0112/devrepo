@@ -33,3 +33,36 @@ Icon: https://s1.imagehub.cc/images/2025/02/26/166e68a0d7051c2d58cb26a4fc284b5b.
 Name: wkkCenter
 Sponsor: wkk
 
+Package: com.yourepo.ok95.ccadsbegoneroothide
+Version: 1.5-2
+Architecture: iphoneos-arm64e
+Maintainer: 0xkuj <krylov0@outlook.com>
+Pre-Depends: rootless-compat(>= 0.9), rootless-compat(>= 0.9)
+Depends: com.opa334.ccsupport, com.ps.letmeblock (>= 1.3.0)
+Conflicts: com.0xkuj.ccadsbegone
+Filename: ./debs/com.yourepo.ok95.ccadsbegoneroothide_1.5-2_iphoneos-arm64e.deb
+Size: 1031008
+MD5sum: d8ba3a89fbd43c10538e90b0451a0e1c
+SHA1: 09010d1d5fe436c03777327e76517fc885c22427
+SHA256: 296911eedcfe18ce9edee9e2395fb6791f297c76e45ce9389b5f5ac3152e0307
+Section: Tweaks
+Description: 在控制中心启用去广告规则！
+Author: 灰灰 <krylov0@outlook.com>
+Name: CCAdsBeGone (roothide)
+
+Package: com.yourepo.ok95.zh-hansforccadsbegoneroothide
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: 灰灰 <krylov0@outlook.com>
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.yourepo.ok95.zh-hansforccadsbegoneroothide_0.0.1_iphoneos-arm64e.deb
+Size: 1968
+MD5sum: 152f642e0ac1c497f03ed70364c992bd
+SHA1: 83faf4e3096a63d9ea6d57b89cdf544844652e22
+SHA256: 36ec51373261d2d7412847f623fc5a6cb6b9c58d243d880ea0e17c287f537904
+Section: Localization
+Description: 为CCAdsBeGone提供简体中文
+Author: 灰灰 <krylov0@outlook.com>
+Name: zh-Hans for CCAdsBeGone(roothide)
+
