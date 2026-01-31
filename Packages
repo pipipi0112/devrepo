@@ -14,3 +14,22 @@ Author: LF
 Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
 Name: A1
 
+Package: com.wkk.center
+Version: 1.1-1
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 114
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), com.opa334.ccsupport
+Filename: ./debs/wkkCenter-1.1-1.deb
+Size: 580558
+MD5sum: 2b44cd3a30eb1f4d5d9770f14497a075
+SHA1: 1dd1437a5244404153b8f05deacad07c0228a8cd
+SHA256: 526020379fa64d083af45c815ce1fff54384d887a3e6d18aac4820334ded7844
+Section: Tweaks
+Description: 自用。
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/02/26/166e68a0d7051c2d58cb26a4fc284b5b.png
+Name: wkkCenter
+Sponsor: wkk
+
