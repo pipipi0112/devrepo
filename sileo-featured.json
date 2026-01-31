@@ -1,0 +1,13 @@
+{
+    "class": "FeaturedBannersView",
+    "itemSize": "{390, 190}",
+    "itemCornerRadius": 10,
+    "banners": [
+        {
+            "url": "https://raw.githubusercontent.com/pipipi0112/devrepo/main/yueyuyuanzhuye.png",
+            "title": "请挂VPN联系+QQ86507646",
+            "package": "com.nx.stheno",
+            "hideShadow": false
+        }
+    ]
+}

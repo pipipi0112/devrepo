@@ -1,8 +1,10 @@
-Label: huamidev
-Origin: huamidev
-Codename: huamidev
-Description: huamidev opens the repository for sharing
-Version: 1.0
+Origin:                         pipi0112
+Label: pipi0112&
 Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm64e-roothide iphoneos-arm64-roothide iphoneos-arm64 iphoneos-arm64e iphoneos-arm
 Components: main
-Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Description: 个人越狱插件源
+SileoFeatured: https://pipipi0112.github.io/devrepo/ 
+Priority: -999999
