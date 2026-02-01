@@ -14,6 +14,24 @@ Author: LF
 Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
 Name: A1
 
+Package: byg.iosios.net.fanqieread.rootless
+Version: 0.1-1
+Architecture: iphoneos-arm64
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/番茄小说-Rootless-0.deb
+Size: 3976
+MD5sum: eea0473d3f0f25dee6862ff8855277e1
+SHA1: a237224bfa0772cd912c5a6aa2e818ee6963f930
+SHA256: 927d49879d01351c87db9082d23395d5a8cf7f26e20ba483858cbe18328226f5
+Section: 自研插件
+Description: App Store搜索番茄小说下载使用！本插件去除广告和解锁VIP
+Author: iOSign
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: 番茄小说-Rootless
+Sponsor: 白月光
+
 Package: byg.iosios.net.zomigle
 Version: 0.1.0-beta1
 Architecture: iphoneos-arm64e
@@ -63,24 +81,6 @@ Section: Tweaks
 Description: AppTools for iOS15-17 Roothide
 Author: aReo
 Name: AppTools15-16(Roothide)
-
-Package: com.lenglengyu.fqxspro
-Version: 0.0.6K
-Architecture: iphoneos-arm
-Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 596
-Depends: mobilesubstrate, com.lenglengyu.libsupervipp
-Filename: ./debs/番茄小说【会员破解】-0.0.6K-iphoneos-arm.deb
-Size: 280390
-MD5sum: ea33f0496c33101d732cc08215f96d05
-SHA1: 9d37d1e047814b8340d7ddc8a0cf115b3a5b5a2e
-SHA256: f0c6eb28b9adc73eab276b8bbbca9c0131ae0cf9cf4353c928e02036ba6e8a92
-Section: 会员专区
-Description: 解锁会员权限，仅供会员使用。
-Author: lenglengyu
-Depiction: https://repo.lenglengyu.top/packageInfo/fqxspro.html
-Name: 番茄小说【会员破解】
-Sileodepiction: https://repo.lenglengyu.top/packageInfo/fqxsprosileo
 
 Package: com.opa334.choicy
 Version: 1.4.10-7-2
