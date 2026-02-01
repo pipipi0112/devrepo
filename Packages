@@ -251,6 +251,76 @@ Author: Wes <wes.hamster@gmail.com>
 Icon: https://sini921.github.io/repo/sileodepiction/icon/cornbar.png
 Name: CornBar
 
+Package: com.wkk.fuckltads
+Version: 1.0-5
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Depends: mobilesubstrate (>= 0.9.7000), firmware (>= 14.0)
+Filename: ./debs/中国联通NoAds-1.0-5-iphoneos-arm64 (1).deb
+Size: 6560
+MD5sum: e0393c5917556173de04e2a680847f47
+SHA1: 7b597a24b317ef047bd851213b6a6d05e6b1294d
+SHA256: 240bd1812828aee2bf3eedb5dba2cb7e02a50f82095e9bbdf0581f67f55cf88d
+Section: 去广告
+Description: 去开屏广告，版本：12.8.1，下载好deb后用TrollFools注入，直接安装不生效，接大量冷门热门app定制去广告/去更新提示/精简app等业务。联系qq：1772773799
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/04/29/6397f5e889e38d2f3facd7d8f0553b8d.png
+Name: 中国联通NoAds
+
+Package: com.wkk.fuckydads
+Version: 1.0-5
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Depends: mobilesubstrate (>= 0.9.7000), firmware (>= 14.0)
+Filename: ./debs/中国移动NoAds-1.0-5-iphoneos-arm64.deb
+Size: 6438
+MD5sum: bcc54ae22a008d4e6228933eac66c8a3
+SHA1: 7911d2d1bf7967fe88f05445f0b8ee7754a1e452
+SHA256: 792aa0e7cabfea71ba2014ffd5b2d1719c54b31c91555d73ef773b538e1b5937
+Section: 去广告
+Description: 去开屏广告，版本：12.0.2，下载好deb后用TrollFools注入，直接安装不生效，接大量冷门热门app定制去广告/去更新提示/精简app等业务。联系qq：1772773799
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/04/29/b34966d282c3e310d25255d207346202.png
+Name: 中国移动NoAds
+
+Package: com.wkk.helloappdata
+Version: 1.3.6-9-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 536
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.fouadraheb.appdata, netskao.appdata-rootless
+Filename: ./debs/Hello AppData 下滑-1.3.6-9-1+debug-iphoneos-arm64e.deb
+Size: 187796
+MD5sum: 5b039fa12942b0e6251b42f29023b3b3
+SHA1: d34fe444c998e758eaad0d6201182862077d086f
+SHA256: fcf47a467782e2173d2d7bb16f05b425224efa223f866e42329ca890a2a1940e
+Section: Tweaks
+Description: 呼出为下滑App。
+Author: Fouad Raheb <support@fouadraheb.com>
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: Hello AppData 下滑
+
+Package: com.wkk.onesettings
+Version: 2.2
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 1084
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Conflicts: com.shepgoba.settingswidgets, com.creaturecoding.shuffle
+Filename: ./debs/OneSettings-2.2-iphoneos-arm64e.deb
+Size: 288504
+MD5sum: 63161338257e0a000908f67eb0db4d7c
+SHA1: 0c43ff90261871b22983e2017c36766d836f28b0
+SHA256: f0dec8733d6f8896128e7bf08a957c24fe605516bf3e3d131d044139dce932b8
+Section: Tweaks
+Description: 插件归类，已汉化。
+Author: Nightwind
+Icon: https://sini921.github.io/repo/sileodepiction/icon/onesett.png
+Name: OneSettings
+Sponsor: wkk
+
 Package: com.yourepo.ok95.ccadsbegoneroothide
 Version: 1.5-2
 Architecture: iphoneos-arm64e
@@ -283,4 +353,44 @@ Section: Localization
 Description: 为CCAdsBeGone提供简体中文
 Author: 灰灰 <krylov0@outlook.com>
 Name: zh-Hans for CCAdsBeGone(roothide)
+
+Package: ru.domo.cocoatop64
+Version: 2.2.4-2
+Architecture: iphoneos-arm64e
+Maintainer: Ash
+Depends: firmware (>= 15.0)
+Conflicts: ru.domo.cocoatop
+Filename: ./debs/CocoaTop64-2.2.4-2-iphoneos-arm64e.deb
+Size: 521738
+MD5sum: 04c7fc20148b631fee3dc00f765b11b3
+SHA1: 027bb89f9c6d2d8ca56406fb96c4347d7da2aff4
+SHA256: 52975037e1cc380871c89b320c366b07cae88478ab4a09abeb9decf7be1d324f
+Section: 应用程序
+Description: 完美版。
+Author: Domo <domo@rambler.ru>
+Icon: https://siieo.github.io/sileodepictions/CocoaTop/icon.png
+Name: CocoaTop64
+
+Package: ws.hbang.newterm3
+Version: 3.0~beta1-1042+debug
+Architecture: iphoneos-arm64e
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 31496
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Recommends: gettext-localizations, iterm2-shell-integration, zsh-autosuggestions, zsh-syntax-highlighting
+Conflicts: ws.hbang.newterm, ws.hbang.newterm2
+Replaces: ws.hbang.newterm, ws.hbang.newterm2
+Filename: ./debs/NewTerm 3 Beta-3.0~beta1-1042+debug-iphoneos-arm64e.deb
+Size: 12444252
+MD5sum: f918cd378e7d98d1c70a0498138325d8
+SHA1: 1ca0043c0f21056725b30b63302f17a70ec5db70
+SHA256: d9b249fc0e789a5bcf8ffcae8e05a66d3a6b828279aa2b0e32e1db14a027a0d7
+Section: 应用程序
+Description: Powerful terminal app for iOS
+Tag: compatible_min::ios14.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/newterm-beta
+Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
+Name: NewTerm 3 Beta
+Support: https://hashbang.productions/support/
 
