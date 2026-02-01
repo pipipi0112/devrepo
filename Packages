@@ -50,6 +50,104 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 Name: Zomigle手表配对-Rootless
 Sponsor: 搬运工
 
+Package: cn.zqbb.appdata
+Version: 1.3.6-9
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 356
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.fouadraheb.appdata, netskao.appdata-rootless
+Filename: ./debs/Hello AppData-1.3.6-9-iphoneos-arm64e.deb
+Size: 99508
+MD5sum: b8317dfdff3e3f593de7eaf518746460
+SHA1: 13cc7bb24f5a427f9ef24bfb220145f284213393
+SHA256: 47f97b94ecf65b5556abc26d2ef987e73c6ab95a46b90a8bc26aa283c3869816
+Section: Tweaks
+Description: View & Manage Applications Data from your Home Screen
+Author: Fouad Raheb <support@fouadraheb.com>
+Name: Hello AppData
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.appdata
+
+Package: cn.zqbb.fix120hz
+Version: 3.2.0-1
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 940
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: ./debs/Hello 120Hz-3.2.0-1-iphoneos-arm64e.deb
+Size: 399480
+MD5sum: e8de8e34132fb481c812255092ac2781
+SHA1: 995d5f6df261631cf1fb6167aa8e4decc8a5e9b6
+SHA256: 10228e0298412dddf154e61d6ed8940407b8a21e6caf21365d7b920f2b91ed9e
+Section: 插件
+Description: 解锁动态刷新率80hz到120hz
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
+Name: Hello 120Hz
+Sileodepiction: https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/120hz.json
+
+Package: cn.zqbb.hello.keyboard.ai
+Version: 4.1.0-5
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 6844
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.zqbb.hello.keyboard.ai
+Filename: ./debs/Hello 键盘侠 (rootless)-4.1.0-5-iphoneos-arm64e.deb
+Size: 5264826
+MD5sum: eaa1c380c7fe1d428ef71fa13dabdbf6
+SHA1: a2c81b596cf74dce76afb06e14458bba6aa649bc
+SHA256: 2015f4cde3ba504f5bca1e2e41293f506ca66644368c0f605a54754f266c0424
+Section: Tweaks
+Description: Quickly activate AI mode.
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.keyboard.ai.png
+Name: Hello 键盘侠 (rootless)
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.keyboard.ai
+
+Package: cn.zqbb.hello.memorystatus
+Version: 3.3.2-5
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 10232
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 14.0), preferenceloader, launchctl
+Filename: ./debs/Hello Memory Status-3.3.2-5-iphoneos-arm64e.deb
+Size: 8279078
+MD5sum: c0e4b2a82c5623553b717c36eeaa67ae
+SHA1: dbdf1c5ab50a97bfcf31e3d948bd0793e2d5b6ad
+SHA256: ec49623c3bb4a0771d13885cc087ca1b28cf7000b205155504d93dfd8e68fdb2
+Section: Tweaks
+Description: Set memorystatus to avoid being killed by the system
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.memorystatus.png
+Name: Hello Memory Status
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.memorystatus
+
+Package: cn.zqbb.orzfolder
+Version: 1.3.3-2
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 2564
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: ./debs/Hello Folder-1.3.3-2-iphoneos-arm64e.deb
+Size: 2158162
+MD5sum: 18cd80a5f2ac183fb5fc2fc424fcc442
+SHA1: 7870d0e51f44506a75684ec9d3b73a2fe3aa8fbd
+SHA256: 5f0f43771d6e1dcf5a68cc1e1233bec6d0e2a06bebef2c95d9332b45bba9a444
+Section: Tweaks
+Description: Folder Layout Customization Tool
+ - 文件夹颜值 ? 美 : 丑
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.orzfolder
+Name: Hello Folder
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.orzfolder
+
 Package: com.apptools.lite.roothide
 Version: 1.0.1
 Architecture: iphoneos-arm64e
