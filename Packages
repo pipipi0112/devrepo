@@ -32,6 +32,38 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 Name: Zomigle手表配对-Rootless
 Sponsor: 搬运工
 
+Package: com.apptools.lite.roothide
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: aReo
+Installed-Size: 2428
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.apptools.lite.roothide_1.0.1_iphoneos-arm64e.deb
+Size: 619796
+MD5sum: 63671b2b780bc78ef05d1b60844dfe0f
+SHA1: 0f0fc6edce84227b741a8e1fe5b48ab5a5d47606
+SHA256: 8f6adefccd3342c600ed11c135bd52930d23fe0c1d937552f531e34b05c8fad7
+Section: Tweaks
+Description: AppTools Lite for iOS15-17 Roothide
+Author: aReo
+Name: AppTools_Lite
+
+Package: com.flex2areo.apptools15roothide
+Version: 2.5.8
+Architecture: iphoneos-arm64e
+Maintainer: aReo
+Installed-Size: 2948
+Depends: mobilesubstrate
+Filename: ./debs/com.flex2areo.apptools15roothide_2.5.8_iphoneos-arm64e.deb
+Size: 763576
+MD5sum: 82626f00449e5b8179814960c5e60d34
+SHA1: eeaeca9dec6557ba82f1cffbcf6a23b7ee150648
+SHA256: 6366840e9858849690322c700c5ef0539949259932c748ec8d2c45a0f200791d
+Section: Tweaks
+Description: AppTools for iOS15-17 Roothide
+Author: aReo
+Name: AppTools15-16(Roothide)
+
 Package: com.opa334.choicy
 Version: 1.4.10-7-2
 Architecture: iphoneos-arm64e
