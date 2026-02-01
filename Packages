@@ -64,6 +64,24 @@ Description: AppTools for iOS15-17 Roothide
 Author: aReo
 Name: AppTools15-16(Roothide)
 
+Package: com.lenglengyu.fqxspro
+Version: 0.0.6K
+Architecture: iphoneos-arm
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 596
+Depends: mobilesubstrate, com.lenglengyu.libsupervipp
+Filename: ./debs/番茄小说【会员破解】-0.0.6K-iphoneos-arm.deb
+Size: 280390
+MD5sum: ea33f0496c33101d732cc08215f96d05
+SHA1: 9d37d1e047814b8340d7ddc8a0cf115b3a5b5a2e
+SHA256: f0c6eb28b9adc73eab276b8bbbca9c0131ae0cf9cf4353c928e02036ba6e8a92
+Section: 会员专区
+Description: 解锁会员权限，仅供会员使用。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/fqxspro.html
+Name: 番茄小说【会员破解】
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/fqxsprosileo
+
 Package: com.opa334.choicy
 Version: 1.4.10-7-2
 Architecture: iphoneos-arm64e
@@ -99,6 +117,41 @@ Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/02/26/166e68a0d7051c2d58cb26a4fc284b5b.png
 Name: wkkCenter
 Sponsor: wkk
+
+Package: com.wkk.cornbar
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: Wes <wes.hamster@gmail.com>
+Installed-Size: 480
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.alderis (>= 1.2)
+Filename: ./debs/CornBar-1.1.0-iphoneos-arm64.deb
+Size: 137584
+MD5sum: dae9447d015de2c6dce83356025ce70a
+SHA1: eca8b32cd17cfb8ed0afba42d71f1c2ad02e039a
+SHA256: f74bed8eee20693fc7790e879d440b42fc7258989c50b1aa6e224f04456eae78
+Section: Tweaks
+Description: 可以把手势横条变成玉米，或者自定义图片，已汉化。
+Author: Wes <wes.hamster@gmail.com>
+Icon: https://sini921.github.io/repo/sileodepiction/icon/cornbar.png
+Name: CornBar
+
+Package: com.wkk.cornbar
+Version: 1.1.0
+Architecture: iphoneos-arm64e
+Maintainer: Wes <wes.hamster@gmail.com>
+Installed-Size: 480
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.alderis (>= 1.2)
+Filename: ./debs/CornBar-1.1.0-iphoneos-arm64e.deb
+Size: 117842
+MD5sum: a161afe0bcda57e2740dd3e11b68cdeb
+SHA1: 8e0ef53bba11050cca0100e178292951173e6c8c
+SHA256: 02deaa17bb2c56a41b848d052ba105c2d6f8cd8189b0cac645d31b0276c55241
+Section: Tweaks
+Description: 可以把手势横条变成玉米，或者自定义图片，已汉化。
+Author: Wes <wes.hamster@gmail.com>
+Icon: https://sini921.github.io/repo/sileodepiction/icon/cornbar.png
+Name: CornBar
 
 Package: com.yourepo.ok95.ccadsbegoneroothide
 Version: 1.5-2
