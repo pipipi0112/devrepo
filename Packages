@@ -14,6 +14,23 @@ Author: LF
 Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
 Name: A1
 
+Package: com.opa334.choicy
+Version: 1.4.10-7-2
+Architecture: iphoneos-arm64e
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 900
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Filename: ./debs/Choicy-1.4.10-7-2-iphoneos-arm64e.deb
+Size: 221462
+MD5sum: 25b15e6c64cb0d04062a7cf40e3ceda3
+SHA1: 4eec443ce9c76b999bb1c4584f0fcb12186f0e5b
+SHA256: a05b3e808c465829a55e94eb0f4197e13a855a278428bf9524df36c34bcb9ee5
+Section: Tweaks
+Description: Advanced Tweak Configuration!
+Author: opa334 <opa334@protonmail.com>
+Depiction: https://opa334.github.io/depic/Choicy/index.html
+Name: Choicy
+
 Package: com.wkk.center
 Version: 1.1-1
 Architecture: iphoneos-arm64e
