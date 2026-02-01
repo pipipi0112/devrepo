@@ -14,6 +14,24 @@ Author: LF
 Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
 Name: A1
 
+Package: byg.iosios.net.zomigle
+Version: 0.1.0-beta1
+Architecture: iphoneos-arm64e
+Maintainer: 搬运工
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0)
+Filename: ./debs/Zomigle手表配对-Rootless-0.1.0-beta1-iphoneos-arm64e.deb
+Size: 24206
+MD5sum: ae980fdc31b257039140d1e98897ca88
+SHA1: 23e1486a7ab39971d8531ff2d600dd327501082f
+SHA256: 12dc6400cf2b34a6e0869434298fa95ade4f03dad86e6cab9ed0385f3d9572d2
+Section: 软件破解
+Description: Removes the 3 app limit for free developer accounts。介绍：ZomigleApple Watch 配对神器。无需升级系统，低版本系统设备也可以配对高版本系统的手表。
+Author: HAHALOSAH
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: Zomigle手表配对-Rootless
+Sponsor: 搬运工
+
 Package: com.opa334.choicy
 Version: 1.4.10-7-2
 Architecture: iphoneos-arm64e
