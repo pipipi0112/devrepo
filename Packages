@@ -523,6 +523,24 @@ Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/04/29/b34966d282c3e310d25255d207346202.png
 Name: 中国移动NoAds
 
+Package: com.wkk.gaodehook
+Version: 1.0-9
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 400
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/高德地图NoAds-1.0-9-iphoneos-arm64e.deb
+Size: 6084
+MD5sum: 81eb594c11b3a8e4fee357c7d189dfab
+SHA1: 73a891758f2f150842f5960be5b1aa802febdcec
+SHA256: 09f9a4c5a071d99a1370b5728e2635f6ba462cebe3bd153a34d8656446424009
+Section: 去广告
+Description: 去开屏和部分豆腐块广告，测试版本：16.8.6，接大量冷门热门app定制去广告/去更新提示/精简app等业务。联系qq：1772773799（如果源内某些去广告插件下载deb安装不生效，请选择用TrollFools注入）
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/02/06/40c726a175b0b0a82d1fbc1c0c309be8.png
+Name: 高德地图NoAds
+
 Package: com.wkk.helloappdata
 Version: 1.3.6-9-1+debug
 Architecture: iphoneos-arm64e
