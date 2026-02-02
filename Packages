@@ -437,6 +437,24 @@ Icon: https://sini921.github.io/repo/sileodepiction/icon/fakesignalbar.png
 Name: FakeSignalBar(roothide)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/fakesignalbar/js.json
 
+Package: com.wkk.baiduwangpanhook
+Version: 1.0-6
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 400
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/百度网盘NoAds-1.0-6-iphoneos-arm64e.deb
+Size: 5116
+MD5sum: acf22e43ba826753867941689b3ead8d
+SHA1: bec71df6eb577ef34c526eed347ea895656f74d2
+SHA256: 5168495e0ba221adffb1fec4993975d322a4f940a206ffa73d78d65038bfad6c
+Section: 去广告
+Description: 去开屏广告，测试版本：13.16.5，接大量冷门热门app定制去广告/去更新提示/精简app等业务。联系qq：1772773799（如果源内某些去广告插件下载deb安装不生效，请选择用TrollFools注入）
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/02/06/8fe27ae9d1c543174ee1cce270093e9d.png
+Name: 百度网盘NoAds
+
 Package: com.wkk.center
 Version: 1.1-1
 Architecture: iphoneos-arm64e
@@ -596,6 +614,24 @@ Author: Nightwind
 Icon: https://sini921.github.io/repo/sileodepiction/icon/onesett.png
 Name: OneSettings
 Sponsor: wkk
+
+Package: com.wkk.xianyuhook
+Version: 1.1-2
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 400
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/闲鱼NoAds-1.1-2-iphoneos-arm64e.deb
+Size: 6928
+MD5sum: 47d580d59d1e2fe884aaafadaec5b9ef
+SHA1: ddccd64eeaa6da7db2883d3e009a715275a97eb0
+SHA256: 8240a17e0db4b9b56cffa9971b8407c1e380217183d2756030c8c433ef344c12
+Section: 去广告
+Description: 去开屏广告，测试版本：7.24.10，接大量冷门热门app定制去广告/去更新提示/精简app等业务。联系qq：1772773799
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/02/10/a5283dbf3147309ebb76288c6e395ab4.png
+Name: 闲鱼NoAds
 
 Package: com.yourepo.ok95.ccadsbegoneroothide
 Version: 1.5-2
