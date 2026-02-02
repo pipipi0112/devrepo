@@ -69,6 +69,26 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 Name: OTADisabler屏蔽系统更新-Rootless
 Sponsor: 搬运工
 
+Package: byg.iosios.net.settingsrevamp
+Version: 3.0.1-1
+Architecture: iphoneos-arm64e
+Maintainer: 搬运工
+Installed-Size: 888
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14)
+Conflicts: com.creaturecoding.shuffle, com.trappledestek.ikset, pro.ikghd.iksettings, preferenceloader.rootless.tops, org.mr.settingswidgets, com.trappledestek.settingswidgets, com.shepgoba.settingswidgets, preferenceloader.rootless.top,com.hk.settingsrevamp.cn.rl
+Filename: ./debs/SettingsRevamp-设置归类-3.0.1-1-iphoneos-arm64e.deb
+Size: 406484
+MD5sum: fadc8c483310910223288dd4d095327e
+SHA1: d3a16d8d94e94a900b17cfbbb5021a6b23b02995
+SHA256: 3c9d6b8dbc0b44d07a8ca52d99d3775f0e9b0b1acbd866e5760f7cbe4c229b9b
+Section: 插件依赖
+Description: Customize the ios settings page插件设置归类，一款将插件归类，美化系统设置的插件，已最新汉化，无需汉化包！可以更换设置背景图片，把插件归纳到一起！具体可以观看插件介绍，非常的nice！后续有更新，等搬运工源第一时间更新！2.1.1旧版本搬运工源群文件里有！
+Author: SOPPPra
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: SettingsRevamp-设置归类
+Sponsor: 搬运工
+
 Package: byg.iosios.net.storeswitcher2
 Version: 1.1-4
 Architecture: iphoneos-arm64e
@@ -160,6 +180,24 @@ Description: View & Manage Applications Data from your Home Screen
 Author: Fouad Raheb <support@fouadraheb.com>
 Name: Hello AppData
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.appdata
+
+Package: cn.zqbb.disupdateapp
+Version: 2.0.0-6
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 720
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: ./debs/Hello App-2.0.0-6-iphoneos-arm64e.deb
+Size: 273788
+MD5sum: 165e2364ff40edfaa3760186931bd4a5
+SHA1: 0ab325e40f4364540e7d383bb34baa302ca8cd0b
+SHA256: 8a986922b68b7378ec1411df7a2d487a108fffc0f7cd9069074100167b879ff2
+Section: Tweaks
+Description: 屏蔽App Store更新提示(Block App Store Updates)!
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.disupdateapp
+Name: Hello App
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.disupdateapp
 
 Package: cn.zqbb.fix120hz
 Version: 3.2.0-1
@@ -291,6 +329,41 @@ Description: AppTools for iOS15-17 Roothide
 Author: aReo
 Name: AppTools15-16(Roothide)
 
+Package: com.lclrc.hammerit
+Version: 1.7.1
+Architecture: iphoneos-arm64e
+Maintainer: lclrc(SquidForce)
+Installed-Size: 3808
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
+Filename: ./debs/Hammer It(rootless)-1.7.1-iphoneos-arm64e.deb
+Size: 2753518
+MD5sum: a0e63915752091a46e7369378db020ce
+SHA1: 421f02026622108ee6ee1611223e6b1606f138ba
+SHA256: d695c7356c111a8dd1d88d80f57284ff41abc3a430a4a4e3a11e65f1b6ea815c
+Section: Tweaks
+Description: Control your text or translate as you wish.
+Author: lclrc(SquidForce)
+Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
+Name: Hammer It
+
+Package: com.lclrc.hammerit
+Version: 1.7.1
+Architecture: iphoneos-arm64
+Maintainer: lclrc(SquidForce)
+Installed-Size: 3808
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
+Filename: ./debs/Hammer It(rootless)-1.7.1-iphoneos-arm64.deb
+Size: 1938072
+MD5sum: fa9af3bb0bce5fef62ab9c89b315ca23
+SHA1: 720655a1ef33612adddf92a288e189f8fd465a24
+SHA256: 35c7d586e198883150094ce3d16db7ae7e3e25ccdcab04894306f5448a212e7e
+Section: Tweaks
+Description: Control your text or translate as you wish.
+Author: lclrc(SquidForce)
+Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
+Name: Hammer It
+
 Package: com.opa334.choicy
 Version: 1.4.10-7-2
 Architecture: iphoneos-arm64e
@@ -307,6 +380,24 @@ Description: Advanced Tweak Configuration!
 Author: opa334 <opa334@protonmail.com>
 Depiction: https://opa334.github.io/depic/Choicy/index.html
 Name: Choicy
+
+Package: com.sini921.fakesignalbar
+Version: 0.1-7
+Architecture: iphoneos-arm64e
+Maintainer: alias20
+Installed-Size: 404
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/FakeSignalBar(roothide)-0.1-7-iphoneos-arm64e.deb
+Size: 57674
+MD5sum: 0018a9c98a2f10c29310b5f07f0bea8f
+SHA1: 7a77d7bb773b06db43a068f0f4284d98d3815890
+SHA256: 9e454715441bfd76283d6a58c11ae202feba1478bc14b74b85e0f2821d63c7df
+Section: 越狱插件
+Description: 自定义运营商名称、信号强度、蜂窝连接等等！基于开源汉化编译。
+Author: alias20 & SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/fakesignalbar.png
+Name: FakeSignalBar(roothide)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/fakesignalbar/js.json
 
 Package: com.wkk.center
 Version: 1.1-1
