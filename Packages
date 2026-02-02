@@ -69,6 +69,25 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 Name: OTADisabler屏蔽系统更新-Rootless
 Sponsor: 搬运工
 
+Package: byg.iosios.net.preferences.rootless
+Version: 0.0.1-103
+Architecture: iphoneos-arm64e
+Maintainer: 搬运工
+Installed-Size: 152
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/屏蔽设置重要提醒-0.0.1-103-iphoneos-arm64e.deb
+Size: 15188
+MD5sum: 4716445bd99fbefe64c96246375fac00
+SHA1: f8f08bb9a65d92b086a8938f424dca45b8986348
+SHA256: 92d1b55f2a0390efc8d41a07443612a8a521b9555afe6a4cfdf0f63b9dff485c
+Section: 自研插件
+Description: 禁止在设置页面显示维修记录，例如更换电池的提醒、屏幕等；更换第三方电池后，开启显示正常电池健康值；屏蔽关于本机显示未知部件记录；屏蔽设置显示“红1”以及电池更新提醒信息；屏蔽设置系统 OTA 升级显示“红1”提醒信息；本插件免费使用，安装即可生效，无设置；本插件在 16.5 多巴胺越狱环境下测试通过，其他系统自行测试。搬运工源，永久免费！搬你所想！
+Author: xybp888
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: 屏蔽设置重要提醒
+Sponsor: 搬运工
+
 Package: byg.iosios.net.settingsrevamp
 Version: 3.0.1-1
 Architecture: iphoneos-arm64e
@@ -381,6 +400,25 @@ Author: opa334 <opa334@protonmail.com>
 Depiction: https://opa334.github.io/depic/Choicy/index.html
 Name: Choicy
 
+Package: com.ps.letmeblock
+Version: 1.3.0
+Architecture: iphoneos-arm64e
+Maintainer: PoomSmart
+Installed-Size: 140
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 9.0), com.opa334.libsandy
+Filename: ./debs/com.ps.letmeblock_1.3.0_iphoneos-arm64e.deb
+Size: 8506
+MD5sum: e9a2232db7e8940d449023b7b8bca126
+SHA1: c0b6c7ea9505e4b800f80f5202b60d227d315926
+SHA256: 9bd44c34af1488bcf7eb390bf4b8b8737c5fe833a4dcb5e7852db53ee6291fb8
+Section: Tweaks
+Description: Make mDNSResponder care more about /etc/hosts
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/letmeblock.html
+Name: LetMeBlock
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/letmeblock.json
+
 Package: com.sini921.fakesignalbar
 Version: 0.1-7
 Architecture: iphoneos-arm64e
@@ -601,10 +639,10 @@ Recommends: gettext-localizations, iterm2-shell-integration, zsh-autosuggestions
 Conflicts: ws.hbang.newterm, ws.hbang.newterm2
 Replaces: ws.hbang.newterm, ws.hbang.newterm2
 Filename: ./debs/NewTerm 3 Beta-3.0~beta1-1042+debug-iphoneos-arm64e.deb
-Size: 12444252
-MD5sum: f918cd378e7d98d1c70a0498138325d8
-SHA1: 1ca0043c0f21056725b30b63302f17a70ec5db70
-SHA256: d9b249fc0e789a5bcf8ffcae8e05a66d3a6b828279aa2b0e32e1db14a027a0d7
+Size: 5628144
+MD5sum: 4ea4c83478649ae8169cc7b2f59ba82c
+SHA1: 3577571c435f038c78f5555d6c6bd5fbd46921fa
+SHA256: ac909d1d2e806a26f0bc17e22d9ec95452baae87a1daf0349f530bda5345ad08
 Section: 应用程序
 Description: Powerful terminal app for iOS
 Tag: compatible_min::ios14.0
