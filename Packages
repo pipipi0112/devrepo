@@ -615,6 +615,23 @@ Icon: https://sini921.github.io/repo/sileodepiction/icon/onesett.png
 Name: OneSettings
 Sponsor: wkk
 
+Package: com.wkk.removewidgetbg
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 404
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist
+Filename: ./debs/移除小组件背景-2.0-iphoneos-arm64.deb
+Size: 31036
+MD5sum: 8d88d1ba9d44c92cfad20e7725aa1da8
+SHA1: 8526d885ef59896dd8f5b64060b2dc571084feb0
+SHA256: 2131e3946022e93cd46e0c58d7c3d3f20fef75212af80eb2f9f9f91423d4b84a
+Section: Tweaks
+Description: Remove the background of the widgets on the home screen.
+Author: Lessica <82flex@gmail.com>
+Icon: https://TrollStoreX.Github.io/sileodepiction/RemoveWidgetBackground/icon.png
+Name: 移除小组件背景
+
 Package: com.wkk.xianyuhook
 Version: 1.1-2
 Architecture: iphoneos-arm64e
